@@ -4,7 +4,7 @@ h1 {
   font-weight: bold;
   color: khaki;
   text-align: center;
-  background: url(../Images/pattern.jpeg)
+  background: url(./images/pattern.jpeg)
 }
 
 h2 {
@@ -20,6 +20,19 @@ h3 {
 
 p {
   font-family: helvetica
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.cards {
+  margin: 0px 150px;
+  width: 250px;
+  justify-content: space-between;
 }
 
 .brushes {
